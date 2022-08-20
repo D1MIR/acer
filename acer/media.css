@@ -1,0 +1,46 @@
+/* for planshet */
+@media screen and (max-width: 990px) {
+    .killa{
+        display: none;
+    }  
+    .all i{
+        display: none;
+    } 
+    .menu{
+        display: block;
+        margin-right: 20px;
+    } 
+    .banner{
+        height: 120vh;
+    }
+    .cardaa{
+        width: 50%;
+        height: 100px;
+        background-color: red;
+    }
+    .windows{
+        width: 50%;
+        height: 50%;
+    }
+    .pngs{
+        display: inline-block;
+    }
+    .banner4{
+        display: none;
+    }
+}
+/* for mobile */
+@media screen and (max-width: 500px) {
+    .carda{
+        width: 100%;
+    }
+    .cardaa{
+        width: 100%;
+    }
+    .cardas{
+        width: 100%;
+    }
+    .cardaz{
+        width: 100%;
+    }
+}

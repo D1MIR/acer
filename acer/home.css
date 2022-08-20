@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 80px;
+}
+.all{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    margin-left: -200px;    
+    margin-top: 10px;
+}
+.item{
+    margin-left: 50px;
+    color: grey;
+}
+.img{
+    height: 60px;
+    margin-left: 20px;
+}
+ .menu{
+    display: none;
+} 
+.menu p{
+    width: 26px;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+.all i{
+    margin-right: 50px;
+    color: grey;
+    font-size: 20px 
+}
+.banner{
+    padding-top: 250px; 
+    color: whitesmoke;
+    background: url("img/greenday.jpg");
+    width: 100%;
+    height: 110vh;
+} 
+.jiji{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+}
+.text h3{
+    text-align: center;
+}
+.text h2{
+    text-align: center;
+}
+.text h4{
+    text-align: center;
+}
+.text button{
+    text-align: center;
+}
+.restart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.br{
+    width: 20%;
+    border: 2px solid white;
+    opacity: 1;
+}
+.i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin-top: 10px;
+}
+.banner2{
+    background: url("img/barrier\ breakes.jpg");
+    width: 100%;
+    height: 100vh;
+}
+.text{
+    color: white;
+}
+.h1{
+    text-align: center;
+}
+.btn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.best{
+    padding-top: 35vh; 
+}
+.banner3{
+    background: url("img/Make\ Your\ Green\ Mark.jpg");
+}
+.banner4{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.all2{
+    width: 100%;
+    height: 100%;
+}
+.imglar{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.kiji{
+    margin-top: 120px;
+    height: 60%;
+    width: 25%;
+    background-color: aqua;
+}
+.textlar{
+    width: 100%;
+    height: 40%;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+}
+ .cardlar{
+    display: flex;
+} 
+.carda{
+    border: none;
+    text-align: center;
+}
+.banner4{
+    width: 100%;
+    height: 250px;
+    background-color: red;
+}
+.pngs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: black;
+}
+.windows{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    background: url("img/windows\ 11.jpg")center/cover;
+    object-fit: cover;
+}
+.games{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+}
+.acer{
+    width: 25%;
+    height: 100%;
+    background-color: brown;
+}
+.intel{
+    width: 25%;
+    height: 100%;
+    background-color: chartreuse;
+}
+.lili{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.chiqadigan{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: black;
+    color: black;
+    margin-top: 250px;
+    text-align: center;
+    background: url("img/windows\ 11.jpg")center/cover; 
+    display: none;
+    transition: 1s;
+}
+.chiqadigan a{
+    color: #000;   
+}
+.chiqadigan h3{
+    padding-top: 90px;
+}
+.windows:hover{
+    background: none;
+    margin-top: -250px;
+} 
+.windows:hover .chiqadigan{
+    display: block;
+}
+
+.games{
+    background: url("img/game\ pass.jpg")center/cover;
+}
+.chiqadigana{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+    background: url("img/game\ pass.jpg")center/cover; 
+    display: none;
+    transition: 1s;
+}
+.chiqadigana a{
+    color: #fff;   
+}
+.chiqadigana h3{
+    padding-top: 90px;
+}
+.windows:hover{
+    background: none;
+    margin-top: -250px;
+} 
+.windows:hover .chiqadigana{
+    display: block;
+}
+
+.acer{
+    background: url("img/acer\ corner.jpg")center/cover;
+}
+.chiqadiganq{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+    background: url("img/acer\ corner.jpg")center/cover; 
+    display: none;
+    transition: 1s;
+}
+.chiqadiganq a{
+    color: #fff;   
+}
+.chiqadiganq h3{
+    padding-top: 90px;
+}
+.windows:hover{
+    background: none;
+    margin-top: -250px;
+} 
+.windows:hover .chiqadiganq{
+    display: block;
+}
+
+.intel{
+    background: url("img/intel.jpg")center/cover;
+}
+.chiqadiganz{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: black;
+    color: #fff;
+    margin-top: 250px;
+    text-align: center;
+    background: url("img/intel.jpg")center/cover; 
+    display: none;
+    transition: 1s;
+}
+.chiqadiganz a{
+    color: #fff;   
+}
+.chiqadiganz h3{
+    padding-top: 90px;
+}
+.windows:hover{
+    background: none;
+    margin-top: -250px;
+} 
+.windows:hover .chiqadiganz{
+    display: block;
+}
+li{
+    list-style: none;
+    line-height: 2.5;
+}
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+footer{
+    background-color: grey;
+}
+.footer h4{
+    margin-left: 110px;
+}
+.gutter{
+    color: white;
+}
+.tepa,
+.pas{
+    position: absolute;
+}
